@@ -8,7 +8,7 @@ resource "aws_instance" "AWSInstance"{
 	instance_type = "t2.micro"
 	key_name = "amitkey"
 	tags = {
-	 Name = "tomcatserver"
+	 Name = "tomcatservers"
 	}
 }
 
