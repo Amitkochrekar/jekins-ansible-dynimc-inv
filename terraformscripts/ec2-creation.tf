@@ -7,9 +7,10 @@ resource "aws_instance" "AWSInstance"{
     ami = "ami-03c4dbdfc36515b16"
 	instance_type = "t2.micro"
 	key_name = "amitkey"
+	security_groups = ["launch-wizard-23"]
 	tags = {
 	 Name = "tomcat-server"
-		security_groups = ["launch-wizard-23"]
+		
 	}
 }
 
