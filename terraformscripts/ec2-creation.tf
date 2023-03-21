@@ -4,7 +4,7 @@ provider "aws"{
 
 
 resource "aws_instance" "AWSInstance"{
-    ami = "ami-0e07dcaca348a0e68"
+    ami = "ami-03c4dbdfc36515b16"
 	instance_type = "t2.micro"
 	key_name = "amitkey"
 	tags = {
