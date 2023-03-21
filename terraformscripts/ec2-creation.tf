@@ -9,7 +9,7 @@ resource "aws_instance" "AWSInstance"{
 	key_name = "amitkey"
 	security_groups = ["launch-wizard-23"]
 	tags = {
-	 Name = "tomcat-server-2"
+	 Name = "tomcatservers"
 		
 	}
 }
