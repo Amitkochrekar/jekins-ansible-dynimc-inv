@@ -1,4 +1,4 @@
-- hosts: tomcatservers
+- hosts: terraform
   become: true
   tasks:
     - name: Install Java
